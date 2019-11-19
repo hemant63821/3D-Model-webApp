@@ -1,0 +1,126 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+.slick-slide img {
+    display: inline-block !important;
+  }
+
+
+#modelSlider {
+
+   
+
+    .slick-slide {
+      padding-right: 24px;
+      padding-left: 6px;
+    }
+  
+    .slider .slick-prev {
+      left: -20px;
+    }
+  
+    .slider .slick-next {
+      right: -20px;
+    }
+  
+    img {
+      filter: gray;
+      -webkit-filter: grayscale(.7);
+      filter: grayscale(.7);
+      transition: all .2s ease-in-out;
+    }
+  
+    .modelCard:hover img {
+      -webkit-filter: grayscale(0);
+      filter: none;
+    }
+  }
+
+  .slick-prev {
+    left: 20px;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 40px;
+    background: url(../../assets/left-arrow.svg);
+    background-size: 100%;
+    z-index: 1;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    color: rgb(22, 20, 20);
+    font-size: 25px;
+    display: none;
+  }
+
+
+  .slick-prev, .slick-prev:focus, .slick-prev:hover{
+    left: 20px;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 40px;
+    background: url(../../assets/left-arrow.svg);
+    background-size: 100%;
+    z-index: 1;
+  }
+  .slick-next,.slick-next:focus, .slick-next:hover {
+    right: 20px;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 40px;
+    background: url(../../assets/right-chevron.svg);
+    background-size: 100%;
+  }
+  
+
+//   .slick-next {
+//     right: 20px;
+//     border: none;
+//     outline: none;
+//     height: 40px;
+//     width: 40px;
+//     background: url(../../assets/right-chevron.svg);
+//     background-size: 100%;
+//   }
+  .custom-btn {
+    position: absolute;
+    bottom: 32%;
+    left: 160px;
+    padding-top: 10px;
+
+  }
+
+  a:hover {
+    text-decoration: none !important;
+    color: inherit !important;
+  }
+
+//   .card-slider-link {
+//     a {
+//       &:hover {
+//         color: currentColor !important;
+//         text-decoration: none !important;
+//       }
+//     }
+//   }
+
+  .slick-dots {
+    bottom: 10px;
+    display: none !important;
+  }
+
+  .modelLogo {
+    width: 180px;
+    height: 140px;
+    display: inline-block;
+    margin-bottom: 9px;
+  }
+
+  #modelCardLink a:hover {
+    text-decoration: none !important;
+    color: inherit !important;
+  }
